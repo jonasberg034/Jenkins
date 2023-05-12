@@ -1,2 +1,4 @@
 sudo usermod -s /bin/bash jenkins
 cd workspace
+
+crontab.guru
