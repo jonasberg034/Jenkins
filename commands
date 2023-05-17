@@ -2,3 +2,12 @@ sudo usermod -s /bin/bash jenkins
 cd workspace
 
 crontab.guru
+
+
+webhook yapma:
+- Go to the `todo-app-node-project` repository page and click on `Settings`.
+
+- Click on the `Webhooks` on the left hand menu, and then click on `Add webhook`.
+
+- Copy the Jenkins URL from the AWS Management Console, paste it into `Payload URL` field, 
+add `/github-webhook/` at the end of URL, and click on `Add webhook`.
